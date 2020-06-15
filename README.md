@@ -45,7 +45,7 @@
 
 <a name="GzPJx"></a>
 ### 3.1 全新部署
-使用Dcoker镜像全新部署。<br />本镜像基于官方镜像构建，仅替换前端资源，具体请参考官方文档用法。
+使用Docker镜像全新部署。<br />本镜像基于官方镜像构建，仅替换前端资源，具体请参考官方文档用法。
 ```bash
 docker run -d -p 3000:3000 --name=grafana-cn w958660278/grafana-cn:latest-dev
 ```
